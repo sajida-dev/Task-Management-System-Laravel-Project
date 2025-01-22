@@ -1,8 +1,6 @@
 @include('components.header')
 <div class="container mx-auto my-8">
     <div class="relative overflow-x-auto  shadow-md sm:rounded-lg">
-        Session data : {{session('title')}}
-
         <div class="flex items-center justify-between flex-column flex-wrap md:flex-row-reverse mx-5 space-y-4 md:space-y-0 pb-4 bg-white dark:bg-gray-900">
             <label for="table-search-users" class="sr-only">Search</label>
             <div class="relative">
