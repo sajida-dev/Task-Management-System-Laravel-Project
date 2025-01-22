@@ -2,7 +2,7 @@
 
 A simple and robust **Task Management System** built with **Laravel**. This project provides authentication and CRUD (Create, Read, Update, Delete) functionality for managing tasks efficiently. The system is designed with clean and intuitive user interfaces and adheres to modern development practices.
 
-- ![600x200](https://github.com/sajida-dev/task-management-system-Laravel-project/blob/main/public/demo.gif)
+![600x200](https://github.com/sajida-dev/task-management-system-Laravel-project/blob/main/public/demo.gif)
 
 ## Features
 
