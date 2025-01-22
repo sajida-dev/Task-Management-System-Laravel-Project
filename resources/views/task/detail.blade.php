@@ -34,35 +34,3 @@
     </div>
     @endif
   </div>
-
-<div>
-    <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
-{{-- <table>
-    @if(isset($data))
-    <tr>
-        <th>Title</th>
-        <td>{{$data->title}}</td>
-    </tr>
-    <tr>
-        <th>Description</th>
-        <td>{{$data->description}}</td>
-    </tr>
-    <tr>
-        <th>Status</th>
-        <td>
-            @if($data->status == 1)
-                Active
-            @else
-                Inactive
-            @endif
-        </td>
-    </tr>
-    <tr>
-        <th>Due Date</th>
-        <td>{{$data->due_date}}</td>
-    </tr>
-    @else
-    <p>No data</p>
-    @endif
-</table> --}}
-</div>

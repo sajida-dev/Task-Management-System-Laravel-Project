@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div>
-                <label for="due_date" class="block text-sm font-medium text-gray-900">Status</label>
+                <label for="due_date" class="block text-sm font-medium text-gray-900">Due Date</label>
                 <div class="mt-1">
                     <input type="date" value="{{ $data->due_date }}" name="due_date"
                         class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
@@ -58,32 +58,4 @@
             <a href="{{route('task.taksList')}}" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Here.</a>
         </p>
     </div>
-</div>
-
-
-<div>
-    <!-- Live as if you were to die tomorrow. Learn as if you were to live forever. - Mahatma Gandhi -->
-    {{-- <h2>Update Task</h2>
-    <form action="{{ route('task.update', $data->id) }}" method="post">
-        @csrf
-        <label for="title">Title</label>
-        <input type="text" value="{{ $data->title }}" name="title"><br>
-        <label for="description">Description</label>
-        <textarea name="description" id="description">{{ $data->description }}</textarea><br>
-        <label for="status">Status</label>
-        <select name="status" id="status">
-            <option value="">Select Status</option>
-            @if ($data->status == 1)
-                <option selected value="1">Active</option>
-                <option value="0">Inactive</option>
-            @else
-                <option value="1">Active</option>
-                <option selected value="0">Inactive</option>
-            @endif
-        </select><br>
-        <label for="due_date">Due Date</label>
-        <input type="date" value="{{ $data->due_date }}" name="due_date"><br>
-        <button name="id" value="{{ $data->id }}" type="submit">Update</button> --}}
-        <!-- <input name="id" value="{{ $data->id }}" placeholder="update" type="submit"> -->
-    {{-- </form> --}}
 </div>

@@ -15,7 +15,7 @@ class TaskController extends Controller
     public function index():View
     {
         $data = Task::all();
-        return view('task.taskList',compact('data'));
+        return view('task.index',compact('data'));
     }
 
     /**
@@ -23,7 +23,7 @@ class TaskController extends Controller
      */
     public function create():View
     {
-        return view('task.createTaskForm');
+        return view('task.create');
     }
 
     /**
@@ -53,7 +53,7 @@ class TaskController extends Controller
     public function show(string $id):View
     {
         $data = Task::find($id);
-        return view('task.taskDetails',compact('data'));
+        return view('task.detail',compact('data'));
     }
 
     /**
@@ -62,7 +62,7 @@ class TaskController extends Controller
     public function edit(string $id):View
     {
         $data = Task::find($id);
-        return view('task.updateTaskForm',compact('data'));
+        return view('task.update',compact('data'));
     }
 
     /**

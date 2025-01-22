@@ -1,7 +1,6 @@
 @include('components.header_template')
 <div>
     <!-- Because you are alive, everything is possible. - Thich Nhat Hanh -->
-    {{-- <h2>home page</h2> --}}
 
     <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('assets/img/login.jpg'); background-size: cover; background-position: top center;">
         <div class="container">
